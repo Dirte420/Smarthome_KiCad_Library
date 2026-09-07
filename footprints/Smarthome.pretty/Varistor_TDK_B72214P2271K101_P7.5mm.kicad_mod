@@ -1,0 +1,132 @@
+(footprint "Varistor_TDK_B72214P2271K101_P7.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.5 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e66c4535-adec-4f46-9c26-aa6d93316ab9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Varistor_TDK_B72214P2271K101_P7.5mm"
+		(at 4 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b88ecc61-0674-4c5f-b723-f175de7f05a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf031082-a1cb-46cb-a7ae-24de0c0d9c3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54780209-7590-4432-b354-3a4b73069701")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4.5 -3.2)
+		(end 12 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c610f263-ad48-4c25-b4d9-b283f62eed26")
+	)
+	(fp_rect
+		(start -4.75 -3.45)
+		(end 12.25 3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2569e615-8b4b-4b70-ad1e-20733793c403")
+	)
+	(fp_rect
+		(start -4.25 -2.95)
+		(end 11.75 2.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fe3a409f-c2a6-4916-abce-e398c05b525b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.5 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "316d473d-f207-437b-8d9f-b8271dab8376")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "ca0a29e9-5d97-475e-ae8a-7710c390ed12")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 2.5 2.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a65c26b4-12bc-4f26-9c50-fb43081df68e")
+	)
+	(embedded_fonts no)
+	(model "${MY_KICAD_LIB}/3dmodels/TDK_S14K275.step"
+		(offset
+			(xyz 3.5 0 20.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -22)
+		)
+	)
+)

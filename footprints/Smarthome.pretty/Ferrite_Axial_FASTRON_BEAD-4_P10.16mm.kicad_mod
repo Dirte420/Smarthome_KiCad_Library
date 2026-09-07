@@ -1,0 +1,132 @@
+(footprint "Ferrite_Axial_FASTRON_BEAD-4_P10.16mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.5 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0035b76d-abd6-4247-865b-c37f29018c60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Ferrite_Axial_FASTRON_BEAD-4_P10.16mm"
+		(at 5.5 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1b618ae7-3269-494e-91ba-4a01677a8392")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc9d62e4-5302-4c6d-981b-3b363d194fee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc274dc4-9274-43b0-a5c2-24ec7845c4f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 1.33 -2.1)
+		(end 8.83 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "46faf308-e437-4add-9e5d-161ed59c6dc5")
+	)
+	(fp_rect
+		(start 1.08 -2.35)
+		(end 9.08 2.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "640e1949-e0e9-4bd9-8f39-81cccb3836fc")
+	)
+	(fp_rect
+		(start 1.58 -1.85)
+		(end 8.58 1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bb39a601-de6d-42b9-a499-f5c23dc7898e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.5 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6ba3c1e3-d6a8-494b-bfa7-2b2538d05901")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "049300e0-17d9-4e10-8c40-5574551944a8")
+	)
+	(pad "2" thru_hole circle
+		(at 10.16 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e2ca5d3-e026-4578-9fc1-648ce18241bc")
+	)
+	(embedded_fonts no)
+	(model "${MY_KICAD_LIB}/3dmodels/Fastron_BEAD-4-900R-02.step"
+		(offset
+			(xyz 5.1 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

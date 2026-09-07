@@ -1,0 +1,132 @@
+(footprint "PTC_Bourns_MF-RHT200_P5.08mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6daddaf3-e851-4bdc-9646-a702a96463f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PTC_Bourns_MF-RHT200_P5.08mm"
+		(at 2 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2e0a6672-590d-4002-aa82-fd205e29bf01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11330db5-a67b-4d99-8a44-e285cd098736")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f4300b7-791e-4006-b0f5-61c07f0c6f67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.41 -2.75)
+		(end 7.49 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d3163c09-dc32-4981-ad4d-b70f4eab43ff")
+	)
+	(fp_rect
+		(start -2.66 -3)
+		(end 7.74 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3a6b217e-e7c1-4cab-aced-e5aa5d0dfbd8")
+	)
+	(fp_rect
+		(start -2.16 -2.5)
+		(end 7.24 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "442d0bde-81ad-465c-af34-f60d6af60cce")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a6b99c51-4403-47c1-a097-7447fd431b87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "e496940a-504e-4413-b333-d204f94b100e")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4fd3199-8d3c-43d0-a73b-28bf379e9dcd")
+	)
+	(embedded_fonts no)
+	(model "${MY_KICAD_LIB}/3dmodels/Bourns_MF-RHT200.step"
+		(offset
+			(xyz 2.5 0 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -12)
+		)
+	)
+)
