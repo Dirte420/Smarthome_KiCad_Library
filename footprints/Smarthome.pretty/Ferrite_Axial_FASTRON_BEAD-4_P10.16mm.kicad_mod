@@ -7,7 +7,7 @@
 		(at 5.5 -3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "0035b76d-abd6-4247-865b-c37f29018c60")
+		(uuid "5ef330b3-b787-4ba6-8af8-335b4fb1314c")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 5.5 3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1b618ae7-3269-494e-91ba-4a01677a8392")
+		(uuid "aab3d8ca-3619-4ede-97ff-f78b5781340b")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fc9d62e4-5302-4c6d-981b-3b363d194fee")
+		(uuid "6fc8c3eb-f413-4c25-9b49-7e4d092ad010")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dc274dc4-9274-43b0-a5c2-24ec7845c4f3")
+		(uuid "6c19995a-eae0-4b0e-a42a-784e1f6af8ca")
 		(effects
 			(font
 				(size 1 1)
@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start 1.33 -2.1)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "46faf308-e437-4add-9e5d-161ed59c6dc5")
+		(uuid "b5051052-c11c-4bf9-be4c-9d92f30633cd")
 	)
 	(fp_rect
 		(start 1.08 -2.35)
@@ -75,7 +75,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "640e1949-e0e9-4bd9-8f39-81cccb3836fc")
+		(uuid "d64bb699-8b23-469a-8998-c02015910555")
 	)
 	(fp_rect
 		(start 1.58 -1.85)
@@ -86,13 +86,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "bb39a601-de6d-42b9-a499-f5c23dc7898e")
+		(uuid "aacdabd0-75cc-4ba4-ada3-0a7640c5d47b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 5.5 5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6ba3c1e3-d6a8-494b-bfa7-2b2538d05901")
+		(uuid "79bf3299-cee0-40be-ba61-7e79dacbbab2")
 		(effects
 			(font
 				(size 1 1)
@@ -107,7 +107,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "049300e0-17d9-4e10-8c40-5574551944a8")
+		(uuid "889b482c-07f9-4057-94f5-ca7fc16d393c")
 	)
 	(pad "2" thru_hole circle
 		(at 10.16 0)
@@ -115,7 +115,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3e2ca5d3-e026-4578-9fc1-648ce18241bc")
+		(uuid "1a637a84-caeb-4d05-9474-2d00784358c4")
 	)
 	(embedded_fonts no)
 	(model "${MY_KICAD_LIB}/3dmodels/Fastron_BEAD-4-900R-02.step"
