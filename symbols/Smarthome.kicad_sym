@@ -268,7 +268,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "F"
-			(at -2.54 0 0)
+			(at -2.54 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -278,10 +278,9 @@
 			)
 		)
 		(property "Value" "MF-RHT200"
-			(at 8.128 -2.54 0)
+			(at 2.54 -0.508 90)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1539,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "FB"
-			(at -3.302 -2.286 0)
+			(at 3.302 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1550,10 +1549,9 @@
 			)
 		)
 		(property "Value" "BEAD-4-900R-02"
-			(at 0 0 0)
+			(at 11.176 -4.064 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1559,7 @@
 			)
 		)
 		(property "Footprint" "Smarthome:Ferrite_Axial_FASTRON_BEAD-4_P10.16mm"
-			(at 0 0 0)
+			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -2274,7 +2272,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "RV"
-			(at -3.81 0 0)
+			(at 3.048 -0.508 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2284,7 +2282,7 @@
 			)
 		)
 		(property "Value" "S14K275"
-			(at 2.794 -0.254 90)
+			(at -3.302 0 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
