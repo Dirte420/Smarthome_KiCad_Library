@@ -1,0 +1,145 @@
+(footprint "Varistor_TDK_B72210S0271K101_P7.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "TDK EPCOS S10K275 B72210S0271K101 MOV varistor")
+	(property "Reference" "REF**"
+		(at 4 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c09cfb58-3ac1-405d-bd27-bb6958f37632")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Varistor_TDK_B72210S0271K101_P7.5mm"
+		(at 4 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a0a80796-0ece-409b-9676-5c19703c29a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c954cacb-682a-46c7-9fa2-b07c92688350")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TDK/EPCOS S10K275, B72210S0271K101, leaded disk varistor, 7.5 mm pitch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fc19304-223f-43cc-a561-2c3b7eafe547")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Name" "Varistor_TDK_B72210S0271K101_P7.5mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2aaf99d-2887-46f7-86c9-4ff22c4409f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.4 -2.65)
+		(end 9.9 2.65)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7ebf7976-f735-43fa-8c8b-be7e4ea23534")
+	)
+	(fp_rect
+		(start -2.5 -2.75)
+		(end 10 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1dd358be-3cde-4d21-88d8-4d999b981ea0")
+	)
+	(fp_rect
+		(start -2.25 -2.5)
+		(end 9.75 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "20db98c4-fa68-410e-ba1c-d6680ea9c73a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bf87b1c7-c9ed-48bb-8c31-9b65565e8b60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "3dfc71fd-6133-4145-9f51-48524f6f9641")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a1af23d-dd88-43ae-8a16-0bbbc818c61d")
+	)
+	(embedded_fonts no)
+	(model "${MY_KICAD_LIB}/3dmodels/TDK_S10K275.step"
+		(offset
+			(xyz 3.75 0 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -12)
+		)
+	)
+)
