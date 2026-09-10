@@ -262,6 +262,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "BOURNS_MF-R110"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -420,6 +423,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "BOURNS_MF-R185"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -578,6 +584,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "BOURNS_MF-R300"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -736,6 +745,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "BOURNS_MF-RHT200"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2029,6 +2041,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "FASTRON_BEAD-4-900R-02"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2873,6 +2888,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "SCHURTER_SPT_0001.2504"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3284,6 +3302,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "TDK_S10K275"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3440,6 +3461,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "TDK_S14K275"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
