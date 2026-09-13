@@ -1,0 +1,248 @@
+(footprint "TerminalBlock_Phoenix_SPT-SMD-1,5-2-H-5,0-R24_1x02_P5.00mm_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.925 -18.935 0)
+		(layer "F.SilkS")
+		(uuid "003b2c73-6b63-49d7-8c2e-5e19bd627ffb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PHOENIX_1824747"
+		(at 9.275 -17.165 0)
+		(layer "F.Fab")
+		(uuid "42a891b9-8997-4dd0-97f5-6a497aa80880")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebf08808-1dbf-4a42-93a7-1b4037cd4320")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fa8cb70-18ef-4838-b8f0-053af9c08198")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -13.6)
+		(end 0.88 -13.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f7170c5-41ce-42b5-929a-ea4075fed2aa")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -13.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca5a68f3-759d-4562-b366-4320b26631ab")
+	)
+	(fp_line
+		(start 8.12 -13.6)
+		(end 9 -13.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb79b153-2c23-4ad4-8b88-46e1774df4dc")
+	)
+	(fp_line
+		(start 9 -13.6)
+		(end 9 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "745be5c5-238c-42ee-9f55-1150e93470af")
+	)
+	(fp_line
+		(start 9 0)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b29ff43-bb0e-4902-89f9-8483cb8cfc9c")
+	)
+	(fp_circle
+		(center 2 -16.15)
+		(end 2.1 -16.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "736ec3f8-64b2-4b88-929c-8ad2d2eff5a1")
+	)
+	(fp_line
+		(start -0.25 -15.4)
+		(end -0.25 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c59bd41-caa0-4bae-bb93-b716b0529892")
+	)
+	(fp_line
+		(start -0.25 0.25)
+		(end 9.25 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33304527-36db-4abc-be04-96e4877313a1")
+	)
+	(fp_line
+		(start 9.25 -15.4)
+		(end -0.25 -15.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c3ed385-90fd-407a-ba54-f8e50a6c64e6")
+	)
+	(fp_line
+		(start 9.25 0.25)
+		(end 9.25 -15.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4549af3d-1e12-4a3f-92d9-8e5d6772472d")
+	)
+	(fp_line
+		(start 0 -13.6)
+		(end 9 -13.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1ad33b4-4da0-4505-8133-490a9d0a6e47")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -13.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f9e2701-6120-47a4-bdb5-4f494249bf6a")
+	)
+	(fp_line
+		(start 9 -13.6)
+		(end 9 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b529d2d9-6ae4-424b-b176-4cf44c9e3706")
+	)
+	(fp_line
+		(start 9 0)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8eb0e98-1aba-49b5-a808-64388efda15c")
+	)
+	(fp_circle
+		(center 2 -16.15)
+		(end 2.1 -16.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b0826aec-07df-4686-a948-c240fe71bdf2")
+	)
+	(pad "1" smd rect
+		(at 2 -13.15)
+		(size 1.6 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e122ad5d-193b-4c5b-b6e3-19293fde27d2")
+	)
+	(pad "1" thru_hole circle
+		(at 2 -5.2)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ff485762-df25-4204-80cf-e5c5c1e23516")
+	)
+	(pad "2" smd rect
+		(at 7 -13.15)
+		(size 1.6 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "19c06626-0f52-47d7-b5da-523b985fa425")
+	)
+	(pad "2" thru_hole circle
+		(at 7 -5.2)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d49be824-3aef-4499-8dfb-c084398c5735")
+	)
+	(embedded_fonts no)
+	(model "${MY_KICAD_LIB}/3dmodels/PhoenixContact_SPT-SMD-1,5-2-H-5,0-R24.step.stp"
+		(offset
+			(xyz 0 2.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
