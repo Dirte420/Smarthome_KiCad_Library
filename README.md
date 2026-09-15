@@ -42,3 +42,8 @@ Naming convention is `<MANUFACTURER>_<MODEL>`
 - A 3D model is not mandatory but highly recommended
 - If not possible to download 3D models from manufacturer website it is recommended to search at Mouser or GrabCAD
 - It is also possible to AI generate a 3D model
+
+### Graphics
+
+- A collection of vector graphics which can get imported in KiCad f.e. on the SilkScreen
+- Use *.dxf format
