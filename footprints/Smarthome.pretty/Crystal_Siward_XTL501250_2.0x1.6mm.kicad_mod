@@ -1,0 +1,184 @@
+(footprint "Crystal_Siward_XTL501250_2.0x1.6mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "39 MHz SMD crystal, Siward XTL501250 series, 2.0 x 1.6 mm, 4 pads, pads 2 and 4 grounded")
+	(tags "Crystal Siward XTL501250 39MHz 2.0x1.6mm SMD HFXO EFR32MG24")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c44a7adc-eb74-49ce-83fa-f3a43cac1da0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Crystal_Siward_XTL501250_2.0x1.6mm"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f74dbee-e2d2-43f3-933b-0d4245b274e5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5491/XTL50.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed16a720-2884-49d2-8ed0-df85fb96952c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "39 MHz SMD crystal, Siward XTL501250 series, 2.0 x 1.6 mm, 4 pads, pads 2 and 4 grounded"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edd4dae6-7af7-4185-b214-47a2d0c52572")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.25 -1.05)
+		(end -1.1 -1.05)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "96eb12d5-e0f6-4663-a727-3f65ab0f2b9e")
+	)
+	(fp_rect
+		(start -1.25 -1.05)
+		(end 1.25 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "da17d385-34c5-4b09-a9ec-7c257e6d1f35")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end -0.8 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "70d4798a-11b9-47a0-9f8b-4c975835eb35")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6c95e9f0-363f-45ce-8d76-a0f5a139ca50")
+	)
+	(fp_line
+		(start -0.8 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "56a6e4f6-5ec4-4aea-904d-b38a6e1bd9ca")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2c87b810-7e51-4e3f-b31e-384a7cf2852c")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1addfb38-3224-4a07-ad23-54e00dceb17a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0c967d56-7fbf-4f08-8243-322a514f1816")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7 -0.55)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f307ebe9-d2f4-49fa-b866-975fa198b23c")
+	)
+	(pad "2" smd roundrect
+		(at 0.7 -0.55)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7f772877-ba42-4af0-be5c-e956ea18c1a7")
+	)
+	(pad "3" smd roundrect
+		(at 0.7 0.55)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d04453ca-3e45-416a-9074-c5aea25534e3")
+	)
+	(pad "4" smd roundrect
+		(at -0.7 0.55)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1bbfc4ff-6070-41e3-8ee4-bd37591e2c44")
+	)
+	(embedded_fonts no)
+	(model "${MY_KICAD_LIB}/3dmodels/Crystal_Siward_XTL50_2.0x1.6mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
