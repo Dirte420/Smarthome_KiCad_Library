@@ -3,11 +3,13 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(descr "Murata DFE2HCAH series power inductor, 2520 (1008), 2.5 x 2.0 mm, 1.2 mm max. height")
+	(tags "Murata DFE2HCAH power inductor 2520 1008")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "2894a401-fe21-4545-a5b6-d687b0aaf194")
+		(uuid "1e55ea54-62ce-4ecb-9b81-49357c9ceb0d")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -19,7 +21,7 @@
 		(at 0 1.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "89fb346a-239e-4862-903e-2737fb28a16c")
+		(uuid "16bc16bf-d8a5-4610-a535-a41314b86463")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -27,12 +29,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JETE243A-9105_PDF_INDUCTOR?lastModifiedDatetime=20250708072123"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ca13875d-f13f-43a5-aeae-af0bf8892740")
+		(uuid "e0b35b34-2e4e-4668-8c9c-4524e7ef4134")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "54871a28-9331-467f-a7c1-b909ad03a84c")
+		(uuid "b0ed3a9f-12e7-42c6-af8d-7dd3770a5d3f")
 		(effects
 			(font
 				(size 1 1)
