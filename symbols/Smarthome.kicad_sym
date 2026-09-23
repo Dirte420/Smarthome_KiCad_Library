@@ -2516,7 +2516,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "EFR32MG24_Core_Expansion_2x6"
+	(symbol "EFR32MG24_Core_Expansion_L12"
 		(pin_names
 			(offset 1.27)
 		)
@@ -2526,7 +2526,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 8.128 7.366 0)
+			(at 0.254 8.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2535,8 +2535,8 @@
 				)
 			)
 		)
-		(property "Value" "EFR32MG24_Core_Expansion_2x6"
-			(at 8.382 -10.414 0)
+		(property "Value" "EFR32MG24_Core_Expansion_L12"
+			(at 9.652 -14.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2545,7 +2545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Smarthome:Module_EFR32MG24_Core_Castellated_2x6_PTH_P2.54mm"
+		(property "Footprint" "Smarthome:Module_EFR32MG24_Core_Castellated_L_12Pin_P2.54mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2567,7 +2567,7 @@
 				)
 			)
 		)
-		(property "Description" "EFR32MG24 core board expansion interface, 2x6 castellated pads with optional PTH headers"
+		(property "Description" "EFR32MG24 core board expansion interface, L-shaped 12-pin castellated pads with optional PTH headers"
 			(at 13.97 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,10 +2600,10 @@
 				)
 			)
 		)
-		(symbol "EFR32MG24_Core_Expansion_2x6_1_1"
+		(symbol "EFR32MG24_Core_Expansion_L12_1_1"
 			(rectangle
 				(start -1.27 6.35)
-				(end 17.78 -8.89)
+				(end 21.59 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2679,8 +2679,8 @@
 				)
 			)
 			(rectangle
-				(start 16.51 2.667)
-				(end 17.78 2.413)
+				(start -1.27 -10.033)
+				(end 0 -10.287)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2690,8 +2690,8 @@
 				)
 			)
 			(rectangle
-				(start 17.78 5.207)
-				(end 16.51 4.953)
+				(start 8.763 6.35)
+				(end 9.017 5.08)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2701,8 +2701,8 @@
 				)
 			)
 			(rectangle
-				(start 17.78 0.127)
-				(end 16.51 -0.127)
+				(start 11.303 6.35)
+				(end 11.557 5.08)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2712,8 +2712,8 @@
 				)
 			)
 			(rectangle
-				(start 17.78 -2.413)
-				(end 16.51 -2.667)
+				(start 13.843 6.35)
+				(end 14.097 5.08)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2723,8 +2723,8 @@
 				)
 			)
 			(rectangle
-				(start 17.78 -4.953)
-				(end 16.51 -5.207)
+				(start 16.383 6.35)
+				(end 16.637 5.08)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2734,8 +2734,8 @@
 				)
 			)
 			(rectangle
-				(start 17.78 -7.493)
-				(end 16.51 -7.747)
+				(start 18.923 6.35)
+				(end 19.177 5.08)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -2853,7 +2853,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 5.08 180)
+				(at -5.08 -10.16 0)
 				(length 3.81)
 				(name "VBAT"
 					(effects
@@ -2871,7 +2871,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 2.54 180)
+				(at 8.89 10.16 270)
 				(length 3.81)
 				(name "PC05"
 					(effects
@@ -2889,7 +2889,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 0 180)
+				(at 11.43 10.16 270)
 				(length 3.81)
 				(name "PD02"
 					(effects
@@ -2907,7 +2907,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 -2.54 180)
+				(at 13.97 10.16 270)
 				(length 3.81)
 				(name "PA05"
 					(effects
@@ -2925,7 +2925,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 -5.08 180)
+				(at 16.51 10.16 270)
 				(length 3.81)
 				(name "PB03"
 					(effects
@@ -2943,7 +2943,7 @@
 				)
 			)
 			(pin passive line
-				(at 21.59 -7.62 180)
+				(at 19.05 10.16 270)
 				(length 3.81)
 				(name "PC02"
 					(effects
