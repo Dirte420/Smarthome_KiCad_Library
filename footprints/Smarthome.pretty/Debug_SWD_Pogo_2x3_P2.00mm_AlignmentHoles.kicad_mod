@@ -1,15 +1,15 @@
-(footprint "Debug_SWD_Pogo_2x3_P2.00mm"
+(footprint "Debug_SWD_Pogo_2x3_P2.00mm_AlignmentHoles"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "6-pin 2x3 SWD pogo-pad interface, 2.00 mm pitch, bottom-side SMD contact pads, without alignment holes")
+	(descr "6-pin 2x3 SWD pogo-pad interface, 2.00 mm pitch, bottom-side SMD contact pads, with alignment holes")
 	(tags "SWD debug pogo programming 2x3 2.00mm bottom")
 	(property "Reference" "REF**"
-		(at 0 -3.5 0)
+		(at 0 -5.8 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "2ade7c4f-9e69-4c78-ae3a-0be3f8e04ce2")
+		(uuid "6f927d39-72b4-43ca-9d22-2083269014a6")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -17,11 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "Debug_SWD_Pogo_2x3_P2.00mm"
-		(at 0 4.5 0)
+	(property "Value" "Debug_SWD_Pogo_2x3_P2.00mm_AlignmentHoles"
+		(at 0 7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "7618812a-d51d-4ba0-850c-25a849daad21")
+		(uuid "ba6df2e1-0208-412b-8bef-33b9cabb1354")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "83dcc3ae-afad-4426-b3ff-965a7b42cc4b")
+		(uuid "fe8ebbf3-c8af-4609-b956-d33e9af6b755")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eb85a33d-6748-4fce-8a53-b1c839527c1b")
+		(uuid "3f569614-f2d6-4f30-961a-7e5adde2b83e")
 		(effects
 			(font
 				(size 1 1)
@@ -66,24 +66,24 @@
 		)
 		(fill yes)
 		(layer "B.SilkS")
-		(uuid "8590f8cc-1b4d-4329-8702-05d188ece317")
+		(uuid "02b297d4-18f8-49d3-bdee-e8f2cc84b12a")
 	)
 	(fp_rect
-		(start -2 -3)
-		(end 2 3)
+		(start -2 -5.15)
+		(end 2 5.65)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "B.CrtYd")
-		(uuid "615004a7-c81a-45cb-9982-463699f4acc1")
+		(uuid "8bbc03df-dd88-415c-985d-5c42951072d3")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 3.5 0)
+		(at 0 6.3 0)
 		(unlocked yes)
 		(layer "B.Fab")
-		(uuid "971119ab-9a5d-4e62-894a-2523a51f12d5")
+		(uuid "d4b8adfd-7690-4112-a3bc-a35851a9cb6b")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -91,41 +91,55 @@
 			)
 		)
 	)
+	(pad "" np_thru_hole circle
+		(at 0 -4.1)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "aea3c799-2897-4493-ba9c-a2b75b26bc7e")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 4.6)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4d20f075-30c1-44ce-85ff-4d309b0d74ea")
+	)
 	(pad "1" smd circle
 		(at -1 -2)
 		(size 1.5 1.5)
 		(layers "B.Cu" "B.Mask")
-		(uuid "4f293b7f-ea83-48f5-aea4-5bbca8655749")
+		(uuid "52329495-a1c2-4840-8a4b-cca1bee0e7ef")
 	)
 	(pad "2" smd circle
 		(at 1 -2)
 		(size 1.5 1.5)
 		(layers "B.Cu" "B.Mask")
-		(uuid "24d670d5-a704-4fc6-ab1d-704949a780de")
+		(uuid "2d347558-0e24-4ccd-b60e-f5604b138037")
 	)
 	(pad "3" smd circle
 		(at -1 0)
 		(size 1.5 1.5)
 		(layers "B.Cu" "B.Mask")
-		(uuid "eb551404-46e9-4d6b-a8f2-56d7612d79f3")
+		(uuid "0809a7a3-815f-403f-baaf-a1d568137869")
 	)
 	(pad "4" smd circle
 		(at 1 0)
 		(size 1.5 1.5)
 		(layers "B.Cu" "B.Mask")
-		(uuid "90c67cb0-a905-4043-8b36-c7dddc044719")
+		(uuid "e68c40dc-7d63-4111-9aa0-23ddd966632f")
 	)
 	(pad "5" smd circle
 		(at -1 2)
 		(size 1.5 1.5)
 		(layers "B.Cu" "B.Mask")
-		(uuid "df6e09ed-386e-40a8-b88e-ef01d0f29387")
+		(uuid "4ed2658c-bf04-4b38-92c1-602c17dd14c6")
 	)
 	(pad "6" smd circle
 		(at 1 2)
 		(size 1.5 1.5)
 		(layers "B.Cu" "B.Mask")
-		(uuid "10a03522-3d0b-4520-ad51-517ec8e4c50c")
+		(uuid "c55d19ed-f14a-4ad8-8a4b-62414cdb16d1")
 	)
 	(embedded_fonts no)
 )
